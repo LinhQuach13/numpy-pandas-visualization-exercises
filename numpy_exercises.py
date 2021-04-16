@@ -296,6 +296,9 @@ d = [
     [60, 45, -45, 90, -45, 180]
 ]
 
+#setup
+d = np.array([[90, 30, 45, 0, 120, 180], [45, -90, -30, 270, 90, 0], [60, 45, -45, 90, -45, 180]])
+
 # Exercise 1 - Find the sine of all the numbers in d
 sine_d= np.sin(d)
 
