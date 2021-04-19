@@ -15,7 +15,7 @@ fruits= pd.Series(["kiwi", "mango", "strawberry", "pineapple", "gala apple", "ho
 fruits.count()
 
 # Output only the index from fruits.
-df.index
+fruits.index
 
 # Output only the index from fruits.
 fruits.values
