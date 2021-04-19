@@ -17,7 +17,7 @@ fruits.count()
 # Output only the index from fruits.
 fruits.index
 
-# Output only the index from fruits.
+# Output only the values from fruits.
 fruits.values
 
 # Confirm the data type of the values in fruits.
