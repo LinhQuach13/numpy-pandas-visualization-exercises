@@ -65,7 +65,7 @@ mpg.describe()
 mpg_copy= mpg.rename(columns={'cty': 'city'})
 
 # e. Rename the hwy column to highway.
-mgp_copy.rename(columns={'hwy': 'highway'})
+mpg_copy= mpg_copy.rename(columns={'hwy': 'highway'})
 
 # f.Do any cars have better city mileage than highway mileage?
 mpg_copy[mpg_copy.city > mpg_copy.highway] # No cars have better city mileage than highway mileage
